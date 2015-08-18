@@ -1,0 +1,65 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Test Ajax</title>
+   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"> <!-- load bootstrap via CDN -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->
+    <script src="test.js"></script> <!-- load our javascript file -->
+</head>
+<body>
+<div class="col-sm-6 col-sm-offset-3">
+
+    <h1>Form</h1>
+
+
+    <form action="#" method="POST">
+
+        <!-- EMP NO -->
+        <div id="empno" class="form-group">
+            <label for="empno">EMP No</label>
+            <input type="text" class="form-control" name="empno" placeholder="130487">
+            <!-- errors will go here -->
+        </div>
+
+        <!-- Name -->
+        <div id="name" class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" name="name" placeholder="R.M.L.Ramanayake">
+            <!-- errors will go here -->
+        </div>
+
+        <!-- SUPERHERO ALIAS -->
+        <div id="company" class="form-group">
+            <label for="company">Company</label>
+            <input type="text" class="form-control" name="company" placeholder="LOLC/LOMC/LOLCIT">
+            <!-- errors will go here -->
+        </div>
+
+        <div id="department" class="form-group">
+            <label for="department">Department</label>
+            <input type="text" class="form-control" name="department" placeholder="(Recovery/Loans)">
+            <!-- errors will go here -->
+        </div>
+
+        <div id="corporatetitle" class="form-group">
+            <label for="corporatetitle">Corporate Title</label>
+            <input type="text" class="form-control" name="corporatetitle" placeholder="(Manager/Employee)">
+            <!-- errors will go here -->
+        </div>
+
+        <div id="dialogdeductions" class="form-group">
+            <label for="dialogdeductions">Dialog Deductions</label>
+            <input type="text" class="form-control" name="dialogdeductions" placeholder="1234.89">
+            <!-- errors will go here -->
+        </div>
+
+
+        <button type="submit" class="btn btn-success">Submit <span class="fa fa-arrow-right"></span></button>
+
+    </form>
+
+</div>
+</body>
+</html>

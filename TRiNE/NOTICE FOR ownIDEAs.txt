@@ -1,0 +1,1 @@
+ownIDEAs team can use selective sync feature to disable synchronizing unrelated this folder.

@@ -1,0 +1,10 @@
+Dialog deduction	DLG
+Festival advance	FST
+LOFIN execution		LNE
+LOFIN settlement	LNS
+Medical			MDC
+Mobitel deduction	MBT
+new recruitment		RMT
+No pay			NPY
+Over time		OVT
+Resignation		RSG

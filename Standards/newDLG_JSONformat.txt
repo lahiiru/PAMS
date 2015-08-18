@@ -1,0 +1,34 @@
+{
+        "DLG": [
+            {
+                "EMP No": "1235",
+                "EPF No": "0015",
+                "Name": "Cruise",
+                "Company": "LOMC",
+		"Department": "abc",
+		"Corporate Title": "Clerk",
+		"Dialog deductions": "200.15"
+            },
+            {
+                "EMP No": "1236",
+                "EP FNo": "0017",
+                "Name": "Justin",
+                "Company": "LOMC",
+		"Department": "abcd",
+		"Corporate Title": "Manager",
+		"Dialog deductions": "2444.15"
+            },
+            {
+                "EMP No": "1287",
+                "EPF No": "0010",
+                "Name": "Beiber",
+                "Company": "LOLC",
+		"Department": "abb",
+		"Corporate Title": "Mover",
+		"Dialog deductions": "1877.20"
+            }
+        ],
+	"Comment": "This is the new sample of DLG item json",
+	"Author": ["JALP Jayakody","2000"],
+	"Time": ["2015/08/01","08:05 am"]
+}

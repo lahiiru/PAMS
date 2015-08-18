@@ -1,0 +1,31 @@
+/*
+ *@author: Lahiru
+ *All session variables should defined after making a log here.
+ *@modified:
+ *	
+ */
+SESSION variable list
+
+* $_SESSION['myusername']
+	Stored logged in user's name.
+	
+* $_SESSION['currentRole']
+	Currently active role code
+		e.g. FD-DLG
+		
+* $_SESSION['role']
+	Stores special role if user have. Using this variable is not recommended.
+	Use following code instead.
+		  $rm=new RolesManager('');
+		  echo $rm->getRoleCode();	
+			e.g. results
+				EM (if user don't have special role)
+				FD-DLG (if user has permission to act as Dialog feeder)
+				
+* $_SESSION['u00']
+	Form resubmission prevent temporal flag
+	Following list shows used flags
+		u01	-	upload.php form
+		
+		
+	

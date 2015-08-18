@@ -1,0 +1,30 @@
+/*
+ *@author: Lahiru
+ */
+ 
+Using SESSION variable 'empjson' guide
+
+* sample SESSION['empjson'] variable
+	[
+	{"id":"3",
+	"empno":"1000",
+	"username":"user",
+	"password":"1234",
+	"epfno":"2011",
+	"company":"LOMC",
+	"name":"Mr. Test Unit",
+	"gender":"Male",
+	"nic":"812450547V",
+	"designation":
+	"Customer",
+	"pendingitems":DLG1276;DLG1279;",
+	"roles":"EM"}
+	]
+	
+* sample code for getting employee number using 'empjson' variable.
+
+function getEmpNo(){
+        $json=$_SESSION['empjson'];
+        $empDataArray=json_decode($json, true)[0];
+	return $empDataArray['empno'];
+}

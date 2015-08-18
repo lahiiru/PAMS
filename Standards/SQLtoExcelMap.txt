@@ -1,0 +1,104 @@
+/*
+ * @author: Nuwan
+ */
+SQL to Excel mapping
+
+DLG
+'empno' => 'EMP No',
+'epfno' => 'EPF No',
+'name' => 'Name',
+'company' => 'Company',
+'department' => 'Department',
+'corporatetitle' => 'Corporate Title',
+'dialogdeductions' => 'Dialog deductions'
+
+festival advanc
+
+'empno' =>EMP No
+'epfno' =>EPF No
+'company' =>Company
+'name' =>Name
+'corparatetitle' => Corparate Title
+'department' =>Bu/Department
+'amount' => Amount
+
+LNE
+'empno' => EMP No
+'epfno' => EPF No
+'name' => Employrr Name
+'company' => Company
+'nic' => NIC No
+'contractno' => Contract No
+'monthlyrental' => Monthly Rental
+'noofinstallment' => No of Instalments
+'date' => Excution Date
+
+lns
+'company' => Company
+'contractno' => Contract No
+'empno' => EPF No
+'epfno' => EPF No
+'name' => Employee Name
+'nic' => NIC No
+'settledate' => Settlement Date
+
+Mobitel deductions
+'company' => Company
+'corporatetitle' => Corporate Title
+'department' => Department
+'empno' => EMP No
+'epfno' => 'EPF No'
+'mobiteldeduction' => 'Mobitel deductions'
+'name' => 'Name'
+
+
+rmt
+'accno' => Account No
+'attendance_mealallowance'=> Attendance & Meal Allowance
+'bankbranch' => Bank Branch
+'bankname' => Bank Name
+'basicsalery' => Basic Salary
+'benevelentfund' => Benevelent Fund
+'brallowance' => BR Allowance
+'branch' => Branch
+'bucategory' => BU Category
+'cashierallowance' => Cashier Allowance
+'company' => Company
+'corporatetitle' => Coporate Title
+'department' => Department
+'designation' => Designation
+'email' => E-Mail
+'empno' => EMP No
+'emptype' => EMP Type
+'epfno' => EPF No
+'fullname' => Full Name
+'nic' => NIC No
+'othername' => Other Name
+'recreationclub' => Recreation Club
+'salgrade' => Sal Grade
+'sportclub' => Sport Club
+'startdate' => Start Date
+'travellingallowance' => Travelling Allowance
+
+npy
+'company' => Comapany
+'corperatetitle' => Cooperate Title
+'department' => Department
+'empno' => EMP No
+'epfno' => EPF No
+'name' =>  Name
+'numberofdays' => Number of days 
+
+ovt
+'branch' => Branch
+'company' => Company
+'corperatetitle' => Corporate Title
+'department' => Department
+'doubleot' => Double OT(Hrs.)
+'empno' => EMP No
+'epfno' => EPF No
+'name' => Name
+'normalot' => Normal OT(Hrs.)
+'totalot' => Total OT(Hrs.)
+'tribleot' => Tripple OT(Hrs.)
+

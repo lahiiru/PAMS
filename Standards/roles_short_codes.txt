@@ -1,0 +1,7 @@
+Roles short codes
+
+Employee	-> EM
+Feeder		-> FD-DLG
+Payrol offices	-> PO
+HOHR		-> HH
+HR partner	-> HP-LOLC

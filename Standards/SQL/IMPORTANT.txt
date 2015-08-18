@@ -1,0 +1,7 @@
+follow step by step to upgrade the databases
+
+1.delete user table
+2.delete project table
+3.create user and project tables
+4.import project table
+5.import project table

@@ -1,0 +1,12 @@
+action type codes
+
+CRE		- CREated, when newly added.
+MOD		- MODified, when item is modified.
+APR		- Item is APpRoved.
+REJ		- REJected.
+COM		- COMment added.
+
+in cases of using action references, use in following format.
+
+CRE-12;
+

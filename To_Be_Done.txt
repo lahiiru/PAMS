@@ -1,0 +1,17 @@
+* what if user type characters {}:" as inputs, which are used in JSON formats?
+  JSON format will be corrupted. What is the solution?
+
+* replace all "echo" functions with "get" functions
+  e.g.
+  function echoData(){echo $result;} should be changed to
+  function getData(){return $result;}
+
+* When an error occured in lower layer how to transfer it to higher layer and 
+  represent to user in proper way?
+
+* Check all validations
+	NIC etc not works
+
+* XLS phaser rewrite. error handles
+
+* Rewrite inquiryDA to search batches etc.

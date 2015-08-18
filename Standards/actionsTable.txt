@@ -1,0 +1,18 @@
+add following fields to `itemsdlg`
+	`actions`
+
+`actions` table formate
+	id
+	type
+	date
+	author
+	comments
+
+delete `comments` table
+
+operations to `batches` table
+	delete `date`, `author`, `comments`
+	add `actions`
+	
+	
+	

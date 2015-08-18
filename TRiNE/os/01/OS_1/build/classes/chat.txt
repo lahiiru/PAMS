@@ -1,0 +1,9 @@
+Lahiru @ 7/25,11.40am: Please contribute to the project by developing or adding features. (Use OS_1 folder)
+* Graph resizing.
+* Giving more details about processes.
+* Enabling and disabling components while operation.
+* Fixing bugs in current code.
+* Encapsulating fields (if you are doing this please make sure all can understand the method names).
+* Refactoring variable names to make them meaningful.
+* Changing labels and texts with standard OS words.
+* Adding new features.
